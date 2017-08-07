@@ -1,0 +1,25 @@
+#menuBar{
+    width: 10%;
+    height: 100%;
+    text-align: left;
+    position: fixed;
+    background-color: white;
+    color: black;
+}
+
+#backgroundImage{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-image: url("../Resources/lightPattern.png");
+}
+
+#pageContent{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    padding-right: 10%;
+    color: black;
+}
