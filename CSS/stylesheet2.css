@@ -23,7 +23,7 @@ body{
     height: 100%;
     position: absolute;
     right: 0;
-    background-image: url("../Resources/darkPattern.png");
+    background-image: url("../Resources/darkPattern.gif");
 }
 
 #pageContent{
