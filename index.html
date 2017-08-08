@@ -8,13 +8,28 @@
         <ul>
             <li>Home</li>
             <li>Not Home</li>
+            <li><button id="menuIcon" onclick="switchStyleSheet()" type="button" class="btn"><img id="lightbulb" src="./Resources/lightbulbBlack.png"></button></li>
         </ul>
     </div>
     <div id="backgroundImage">
         <div id="pageContent">
             <h1>Check me out I think I'm hot shit</h1>
-            <button onclick="switchStyleSheet()" type="button" class="btn">Press me!</button>
+            <div id="termynal" data-termynal data-termynal data-ty-typeDelay="40" data-ty-lineDelay="700" data-ty-progressChar="█" data-ty-cursor="▍" >
+                <span data-ty="input">sudo apt-get install node</span>
+                <span data-ty="progress"></span>
+                <span data-ty>Installed model 'en'</span>
+                <span data-ty="input">git clone https://github.com/alexbow/resumeWebsite.git</span>
+                <span data-ty="progress"></span>
+                <span data-ty>Successfully cloned Alex Bowen's Website</span>
+                <span data-ty></span>
+                <span data-ty="input">node helloWorld.js</span>
+                <span data-ty>Hello World!</span>
+                <span data-ty="input">node alexBowen.js</span>
+                <span data-ty>Hello! My name is Alex Bowen a full stack developer with a passion for technology!</span>
+            </div>
+
         </div>
     </div>
+    <script src="./Javascript/termynal.js" data-termynal-container="#termynal"></script>
 </body>
 </html>
