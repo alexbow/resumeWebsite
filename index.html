@@ -1,20 +1,34 @@
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link id="myStyleSheet" href="./CSS/stylesheet1.css" rel="stylesheet" type="text/css" />
 <script src="./Javascript/index.js"></script>
+
 </head>
 <body>
     <div id="menuBar">
         <ul>
-            <li>Home</li>
-            <li>Not Home</li>
-            <li><button id="menuIcon" onclick="switchStyleSheet()" type="button" class="btn"><img id="lightbulb" src="./Resources/lightbulbBlack.png"></button></li>
+            <div id="logo">
+                <a href=./index.html>
+                <img src="./Resources/logoBlueTop.gif">
+                <div id="logoName">Alex</div>
+            </div>
+            <div class="container">
+                <a class="menuIcon" href=./projects.html>
+                <img id="portfolio" src="./Resources/portfolioBlack.gif">
+                <div class="overlay"><div class="textContent">Projects</div></div></a>
+            </div>
+            <div class="container">
+                <button class="menuIcon" type="button" class="btn">
+                <img id="lightbulb" src="./Resources/lightbulbBlack.png"></button>
+                <div class="overlay" onclick="switchStyleSheet()"><div class="textContent">Invert Colors</div></div>
+            </div>
         </ul>
     </div>
     <div id="backgroundImage">
         <div id="pageContent">
-            <h1>Check me out I think I'm hot shit</h1>
-            <div id="termynal" data-termynal data-termynal data-ty-typeDelay="40" data-ty-lineDelay="700" data-ty-progressChar="█" data-ty-cursor="▍" >
+            <h1>Check me out I think I'm Mr. Cool</h1>
+            <div id="termynal" data-termynal data-termynal data-ty-typeDelay="40" data-ty-lineDelay="700" data-ty-progressChar="&#x2588;" data-ty-cursor="&#x258C;" >
                 <span data-ty="input">sudo apt-get install node</span>
                 <span data-ty="progress"></span>
                 <span data-ty>Installed model 'en'</span>
@@ -27,7 +41,6 @@
                 <span data-ty="input">node alexBowen.js</span>
                 <span data-ty>Hello! My name is Alex Bowen a full stack developer with a passion for technology!</span>
             </div>
-
         </div>
     </div>
     <script src="./Javascript/termynal.js" data-termynal-container="#termynal"></script>

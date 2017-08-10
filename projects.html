@@ -1,19 +1,32 @@
 <html>
 <head>
-<link id="myStyleSheet" href="stylesheet1.css" rel="stylesheet" type="text/css" />
+<link id="myStyleSheet" href="./CSS/stylesheet1.css" rel="stylesheet" type="text/css" />
 <script src="index.js"></script>
 </head>
 <body>
     <div id="menuBar">
         <ul>
-            <li>Home</li>
-            <li>Not Home</li>
+            <div id="logo">
+                <a href=./index.html>
+                <img src="./Resources/logoBlueTop.gif">
+                <div id="logoName">Alex</div>
+            </div>
+            <div class="container">
+                <a class="menuIcon" href=./projects.html>
+                <img src="./Resources/portfolioIcon.png">
+                <div class="overlay"><div class="textContent">Projects</div></div></a>
+            </div>
+            <div class="container" onclick="switchStyleSheet()">
+                <button class="menuIcon" type="button" class="btn">
+                <img src="./Resources/lightbulbBlack.png"></button>
+                <div class="overlay"><div class="textContent">Invert Colors</div></div>
+            </div>
         </ul>
     </div>
     <div id="backgroundImage">
         <div id="pageContent">
 
-            
+
         </div>
     </div>
 </body>

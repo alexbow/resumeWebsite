@@ -2,8 +2,24 @@ body{
     margin: 0px;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 #menuBar{
-    width: 10%;
+    width: 5%;
     height: 100%;
     text-align: left;
     position: fixed;
@@ -11,23 +27,54 @@ body{
     color: #eee;
 }
 
-#menuIcon{
+.menuIcon{
     background-color: #252a33;
-    padding: 0;
     border: none;
     outline: none;
+    padding-bottom: 15%;
+    text-align: left;
+    width: 100%;
+}
+
+.menuIcon img{
+    width: 80%;
+    height: auto;
+    display: block;
+    padding-bottom: 30%;
+    padding-left: 15%;
+    margin: auto;
+}
+
+#logo{
+    border-bottom: 1px;
+
+}
+
+#logo img{
+    width: 80%;
+    height: auto;
+    display: block;
+    padding-left: 15%;
+}
+
+#logoName{
+    text-align: center;
+    color: #eee;
+    text-decoration: none;
+    padding-bottom: 20%;
 }
 
 #backgroundImage{
-    width: 90%;
+    width: 95%;
     height: 100%;
     position: absolute;
     right: 0;
     background-image: url("../Resources/darkPattern.gif");
+    background-size: contain;
 }
 
 #pageContent{
-    width: 90%;
+    width: 95%;
     height: 100%;
     position: absolute;
     right: 0;
@@ -35,13 +82,52 @@ body{
 }
 
 #lightbulb{
-    width: 40%;
-    padding-right: 50%;
+    width: 90%;
+    padding-right: 20%;
 }
 
 ul {
   list-style-type: none;
+  text-align: left;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  padding-top: 10%;
 }
+
+.container{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .33s ease;
+  background-color: #252a33;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.textContent {
+  color: #eee;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
 
 :root {
     --color-bg: #252a33;
