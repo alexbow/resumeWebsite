@@ -19,7 +19,7 @@ a:active {
 }
 
 #menuBar{
-    width: 5%;
+    width: 7%;
     height: 100%;
     text-align: left;
     position: fixed;
@@ -41,13 +41,14 @@ a:active {
     height: auto;
     display: block;
     padding-bottom: 30%;
-    padding-left: 15%;
     margin: auto;
 }
 
 #logo{
     border-bottom: 1px;
-
+    margin: 0;
+    padding-top: 30%;
+    margin-bottom: 20%;
 }
 
 #logo img{
@@ -62,10 +63,11 @@ a:active {
     color: #252a33;
     text-decoration: none;
     padding-bottom: 20%;
+    padding-top: 5%;
 }
 
 #backgroundImage{
-    width: 95%;
+    width: 93%;
     height: 100%;
     position: absolute;
     right: 0;
@@ -74,7 +76,7 @@ a:active {
 }
 
 #pageContent{
-    width: 95%;
+    width: 93%;
     height: 100%;
     position: absolute;
     right: 0;
@@ -87,7 +89,6 @@ ul {
   height: 100%;
   margin: 0;
   padding: 0;
-  padding-top: 10%;
 }
 
 .container{
@@ -107,6 +108,7 @@ ul {
   opacity: 0;
   transition: .33s ease;
   background-color: #eee;
+  cursor:pointer;
 }
 
 .container:hover .overlay {
@@ -117,7 +119,7 @@ ul {
   color: #252a33;
   font-size: 15px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);

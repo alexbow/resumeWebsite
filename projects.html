@@ -1,31 +1,55 @@
 <html>
 <head>
+<link rel="icon" href="./Resources/logoBlueTop.gif">
 <link id="myStyleSheet" href="./CSS/stylesheet1.css" rel="stylesheet" type="text/css" />
-<script src="index.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<title>Alex Bowen</title>
+<script src="./Javascript/index.js"></script>
 </head>
-<body>
+<body onload="persistentStyles()">
     <div id="menuBar">
         <ul>
             <div id="logo">
                 <a href=./index.html>
-                <img src="./Resources/logoBlueTop.gif">
+                <img id="logoPicture" src="./Resources/logoBlueTop.gif">
                 <div id="logoName">Alex</div>
             </div>
             <div class="container">
-                <a class="menuIcon" href=./projects.html>
-                <img src="./Resources/portfolioIcon.png">
-                <div class="overlay"><div class="textContent">Projects</div></div></a>
+                <a class="menuIcon" href="./projects.html">
+                <img id="portfolio" src="./Resources/portfolioBlack.gif">
+                <div class="overlay"  onclick="persistentStyles()"><div class="textContent">Projects</div></div></a>
             </div>
-            <div class="container" onclick="switchStyleSheet()">
+            <div class="container">
+                <a class="menuIcon" href="./skills.html">
+                <img id="skills" src="./Resources/computerBlack.gif">
+                <div class="overlay"  onclick="persistentStyles()"><div class="textContent">Skills</div></div></a>
+            </div>
+            <div class="container">
+                <a class="menuIcon" href="./experience.html">
+                <img id="experience" src="./Resources/experienceBlack.gif">
+                <div class="overlay"  onclick="persistentStyles()"><div class="textContent">Experience</div></div></a>
+            </div>
+            <div class="container">
+                <a class="menuIcon" href="./contact.html">
+                <img id="contact" src="./Resources/mailBlack.gif">
+                <div class="overlay"  onclick="persistentStyles()"><div class="textContent">Contact Me</div></div></a>
+            </div>
+            <div class="container">
+                <a class="menuIcon" href="./projects.html">
+                <img id="resume" src="./Resources/resumeBlack.gif">
+                <div class="overlay"  onclick="persistentStyles()"><div class="textContent">Resume</div></div></a>
+            </div>
+            <div class="container">
                 <button class="menuIcon" type="button" class="btn">
-                <img src="./Resources/lightbulbBlack.png"></button>
-                <div class="overlay"><div class="textContent">Invert Colors</div></div>
+                <img id="lightbulb" src="./Resources/lightbulbBlack.png"></button>
+                <div class="overlay" onclick="switchStyleSheet()"><div class="textContent">Invert Colors</div></div>
             </div>
         </ul>
     </div>
     <div id="backgroundImage">
         <div id="pageContent">
-
+            Projects go here.
 
         </div>
     </div>
