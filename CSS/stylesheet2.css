@@ -116,7 +116,8 @@ ul {
 }
 
 .textContent {
-  color: #eee;
+  /*color: #eee;*/
+  color: #08fdd8;
   font-size: 15px;
   position: absolute;
   top: 40%;
