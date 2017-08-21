@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
 }
 
 a:link {
@@ -37,7 +38,7 @@ a:active {
 }
 
 .menuIcon img{
-    width: 80%;
+    width: 40%;
     height: auto;
     display: block;
     padding-bottom: 30%;
@@ -48,14 +49,13 @@ a:active {
     border-bottom: 1px;
     margin: 0;
     padding-top: 30%;
-    margin-bottom: 20%;
 }
 
 #logo img{
-    width: 80%;
+    width: 60%;
     height: auto;
     display: block;
-    padding-left: 15%;
+    padding-left: 25%;
 }
 
 #logoName{
