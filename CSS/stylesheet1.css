@@ -73,6 +73,7 @@ a:active {
     right: 0;
     background-image: url("../Resources/lightPattern.png");
     background-size: contain;
+    overflow: auto;
 }
 
 #pageContent{
@@ -112,6 +113,43 @@ ul {
 }
 
 .container:hover .overlay {
+  opacity: 1;
+}
+
+#pageContent ul{
+  height: 80%;
+}
+
+.skills{
+  width: 150px;
+  height: 150px;
+  border-radius: 3px;
+  border-color: black;
+  display: inline-block;
+  margin-bottom: 5%;
+  margin-right: 5%;
+}
+
+.skills img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .33s ease;
+  background-color: #D8D7CF;
+  cursor:pointer;
+}
+
+.container:hover .overlay2 {
   opacity: 1;
 }
 
