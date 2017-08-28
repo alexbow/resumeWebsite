@@ -1,3 +1,27 @@
+/*@media only screen and (max-width: 500px) {
+    #menuBar{
+      width: 100%;
+      height: 10%;
+      position: absolute;
+    }
+
+    #backgroundImage{
+      width: 100%;
+    }
+
+    #termynal{
+      opacity: 0;
+    }
+
+    #logoName{
+      font-size: 10;
+    }
+
+    .textContent{
+      font-size: 10;
+    }
+}*/
+
 body{
     margin: 0px;
     font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
@@ -24,12 +48,12 @@ a:active {
     height: 100%;
     text-align: left;
     position: fixed;
-    background-color: #eee;
+    background-color: #CECCC4;
     color: #252a33;
 }
 
 .menuIcon{
-    background-color: #eee;
+    background-color: #CECCC4;
     border: none;
     outline: none;
     padding-bottom: 15%;
@@ -108,7 +132,7 @@ ul {
   width: 100%;
   opacity: 0;
   transition: .33s ease;
-  background-color: #eee;
+  background-color: #CECCC4;
   cursor:pointer;
 }
 
@@ -118,6 +142,11 @@ ul {
 
 #pageContent ul{
   height: 80%;
+}
+
+#pageContent h1{
+  padding-left: 39%;
+  padding-bottom: 2%;
 }
 
 .skills{
@@ -145,7 +174,6 @@ ul {
   width: 100%;
   opacity: 0;
   transition: .33s ease;
-  background-color: #D8D7CF;
   cursor:pointer;
 }
 
@@ -153,14 +181,62 @@ ul {
   opacity: 1;
 }
 
+.container:hover img{
+  opacity: 0;
+}
+
 .textContent {
   color: #252a33;
   font-size: 15px;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+.textContent2 {
+  color: #252a33;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-weight: bold;
+  font-size: 30;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.jobContent{
+  padding-bottom: 8%;
+}
+
+.jobContent img{
+  width: 15%;
+  height: auto;
+  float: left;
+  padding-right: 3%;
+  margin-bottom: 2%;
+}
+
+.jobContent h2{
+  margin-bottom: 0;
+}
+
+.jobContent p{
+  margin-top: 0;
+  width: 80%;
+  font-size: 18;
+}
+
+#jobDescription{
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#sito{
+  padding-top: 2%;
+  margin-bottom: 5%;
 }
 
 :root {

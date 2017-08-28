@@ -9,7 +9,7 @@ function switchStyleSheet(){
 		document.getElementById('myStyleSheet').id = 'myStyleSheet2';
 		document.getElementById('lightbulb').setAttribute('src', './Resources/lightbulbWhite.png');
 		document.getElementById('portfolio').setAttribute('src', './Resources/portfolioWhite.gif');
-		document.getElementById('logoPicture').setAttribute('src', './Resources/logoRedTop.gif');
+		// document.getElementById('logoPicture').setAttribute('src', './Resources/logoRedTop.gif');
 		document.getElementById('resume').setAttribute('src', './Resources/resumeWhite.gif');
 		document.getElementById('contact').setAttribute('src', './Resources/mailWhite.gif');
 		document.getElementById('experience').setAttribute('src', './Resources/experienceWhite.gif');
@@ -22,7 +22,7 @@ function switchStyleSheet(){
 		document.getElementById('myStyleSheet2').id = 'myStyleSheet';
 		document.getElementById('lightbulb').setAttribute('src', './Resources/lightbulbBlack.png');
 		document.getElementById('portfolio').setAttribute('src', './Resources/portfolioBlack.gif');
-		document.getElementById('logoPicture').setAttribute('src', './Resources/logoBlueTop.gif');
+		// document.getElementById('logoPicture').setAttribute('src', './Resources/logoBlueTop.gif');
 		document.getElementById('resume').setAttribute('src', './Resources/resumeBlack.gif');
 		document.getElementById('contact').setAttribute('src', './Resources/mailBlack.gif');
 		document.getElementById('experience').setAttribute('src', './Resources/experienceBlack.gif');
