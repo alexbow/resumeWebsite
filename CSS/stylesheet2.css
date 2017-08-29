@@ -172,7 +172,7 @@ ul {
 }
 
 .textContent2 {
-  color: #252a33;
+  color: #08fdd8;
   font-size: 15px;
   position: absolute;
   top: 50%;
@@ -211,6 +211,11 @@ ul {
 }
 
 #sito{
+  padding-top: 2%;
+  margin-bottom: 5%;
+}
+
+#YPC{
   padding-top: 2%;
   margin-bottom: 5%;
 }
