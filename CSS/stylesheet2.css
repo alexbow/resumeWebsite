@@ -82,6 +82,7 @@ a:active {
     position: absolute;
     right: 0;
     color: #eee;
+    padding-right: 7%;
 }
 
 ul {
@@ -121,8 +122,12 @@ ul {
 }
 
 #pageContent h1{
-  padding-left: 39%;
+  text-align: center;
   padding-bottom: 2%;
+}
+
+.fixedContainer{
+  padding-left: 7%;
 }
 
 .skills{
@@ -218,6 +223,11 @@ ul {
 #YPC{
   padding-top: 2%;
   margin-bottom: 5%;
+}
+
+#terminalBox{
+  display: inline-block;
+  padding-left: 18%;
 }
 
 :root {
