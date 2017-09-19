@@ -1,4 +1,8 @@
 body{
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
     margin: 0px;
     font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
 }
@@ -55,7 +59,11 @@ a:active {
     width: 60%;
     height: auto;
     display: block;
-    padding-left: 25%;
+    padding-left: 18%;
+}
+
+.logoImage{
+  content:url("../Resources/logoWhite.gif");
 }
 
 #logoName{
@@ -64,6 +72,31 @@ a:active {
     text-decoration: none;
     padding-bottom: 20%;
     padding-top: 5;
+}
+
+#portfolio{
+  content:url("../Resources/portfolioWhite.gif");
+}
+
+#skills{
+  content:url("../Resources/computerWhite.gif");
+}
+
+#experience{
+	content:url("../Resources/experienceWhite.gif");
+}
+
+#contact{
+	content:url("../Resources/mailWhite.gif");
+}
+
+#resume{
+	content:url("../Resources/resumeWhite.gif");
+}
+
+#lightbulb{
+	content:url("../Resources/lightbulbWhite.png");
+  width: 60%;
 }
 
 #backgroundImage{
@@ -111,6 +144,13 @@ ul {
   transition: .33s ease;
   background-color: #252a33;
   cursor:pointer;
+}
+
+.overlay .textContent{
+	-webkit-user-select: none; /* Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
 }
 
 .container:hover .overlay {
@@ -189,7 +229,7 @@ ul {
 }
 
 .jobContent{
-  padding-bottom: 8%;
+  padding-bottom: 9%;
 }
 
 .jobContent img{
@@ -228,6 +268,10 @@ ul {
 #terminalBox{
   display: inline-block;
   padding-left: 18%;
+}
+
+#contactInfo{
+  padding-top: 16%;
 }
 
 :root {
